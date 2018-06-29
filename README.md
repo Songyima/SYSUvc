@@ -9,15 +9,8 @@
     setColor(this.getRandColor(random, 0, 15))
     —— 启发就是把像素值<=15的点变成白色
 3、图像灰度化和二值化，需要用到OpenCV（python中 import cv2）处理完之后如下图：
-<div style="text-align: center">
-<p>处理前:</p>
-<img src="validate_code/testgraph/x.jpg" width="230" height="150" alt="图片描述文字"/>
-<p>处理后:</p>
-<img style="margin-right:5px;" src="validate_code/testgraph/00.jpg" width="50" height="150" alt="图片描述文字"/>
-<img style="margin-right:5px;" src="validate_code/testgraph/01.jpg" width="50" height="150" alt="图片描述文字"/>
-<img style="margin-right:5px;" src="validate_code/testgraph/02.jpg" width="50" height="150" alt="图片描述文字"/>
-<img style="margin-right:5px;" src="validate_code/testgraph/03.jpg" width="50" height="150" alt="图片描述文字"/>
-</div>
+<br>
+<img src="validate_code/testgraph/QQ20180629-151646.png" width="900" height="300" alt="图片描述文字"/>
 
 ###
 ## 2、把数据分成训练级和测试集（create_train_test_txt.py）
